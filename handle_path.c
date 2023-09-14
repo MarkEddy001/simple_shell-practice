@@ -52,27 +52,26 @@ char *_getenv(char *str1)
 	{
 		index2 = 0;
 		flag = 0;
-		curr_emv = environ[index1];
+		curr_env = environ[index1];
 
 		while (env[index2] && (curr_env[index2] != '='))
 		{
-			if (env[j] != curr_env[index2])
-		{
-			flag = 1;
-			break;
-		}
-			index++;
+			if (env[index2] != curr_env[index2])
+			{
+				flag = 1;
+				break;
+			}
+			index2++;
 		}
 		if (!flag)
 		{
+
 			return (curr_env + index2 + index1);
 		}
-		else
-		{
-			return (NULL);
-		}
-
+		index1++;
 	}
+
+	return (NULL);
 }
 
 /**

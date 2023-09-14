@@ -17,10 +17,10 @@ void int_to_str(int n, char *s)
 	int i;
 
 	while (num / divisor >= 10)
-		divisior *= 10;
+		divisor *= 10;
 
 	i = 0;
-	while (divisior != 0)
+	while (divisor != 0)
 	{
 		digit = num / divisor;
 		s[i] = digit + '0';

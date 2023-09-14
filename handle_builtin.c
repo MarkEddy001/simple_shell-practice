@@ -114,7 +114,7 @@ void _echo(char **new_argv, int exit_status)
 			if (op[1] == '$')
 			{
 				int_to_str(ppid, arr[++index2]);
-				op = _strcat(arr[j], op + 2);
+				op = _strcat(arr[index2], op + 2);
 				new_argv[index1] = op;
 			}
 			else if (op[1] == '?')
