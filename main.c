@@ -54,38 +54,6 @@ int main(int ac, char *argv[], char **envp)
 }
 
 /**
- * tokenize - splits a string into tokens based on a specified delimiter
- * @buf: the input string to be tokenized
- *
- * Return: a pointer to an array of char pointers, where each element
- *         points to a token in the input string
- */
-
-char **tokenize(char *buf)
-{
-	int i;
-	char *delim = " ";
-	char *token = NULL;
-	int argc = count_delim(buf, ' ') + 1;
-	char **argv;
-
-	argv = malloc(sizeof(char *) * (argc + 1));
-	token = strtok(buf, delim);
-	i = 0;
-
-	while (token)
-	{
-		argv[i] = token;
-		token = strtok(NULL, delim);
-		i++;
-
-	}
-	argv[i] = NULL;
-
-	return (argv);
-}
-
-/**
  * execute - executes a command using the execve system call
  * @buf: the input buffer containing the command to be executed
  * @av: the name of the shell program
@@ -177,4 +145,36 @@ void _execute(pid_t pid, char *buf, char **argv, char **new_argv,
 		free(new_argv);
 		new_argv = NULL;
 	}
+}
+
+/**
+ * tokenize - splits a string into tokens based on a specified delimiter
+ * @buf: the input string to be tokenized
+ *
+ * Return: a pointer to an array of char pointers, where each element
+ *         points to a token in the input string
+ */
+
+char **tokenize(char *buf)
+{
+	int i;
+	char *delim = " ";
+	char *token = NULL;
+	int argc = count_delim(buf, ' ') + 1;
+	char **argv;
+
+	argv = malloc(sizeof(char *) * (argc + 1));
+	token = strtok(buf, delim);
+	i = 0;
+
+	while (token)
+	{
+		argv[i] = token;
+		token = strtok(NULL, delim);
+		i++;
+
+	}
+	argv[i] = NULL;
+
+	return (argv);
 }
