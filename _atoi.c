@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * _atoi - string to integer
- * @s: string pointer
+ * _atoi - Convert a string to an integer
+ * @s: string pointer input
  *
  * Return: int
  */
