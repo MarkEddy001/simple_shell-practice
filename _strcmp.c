@@ -10,15 +10,15 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int diff = 0, i;
+	int diff = 0, index1;
 
-	i = 0;
-	while (s1[i] != '\0' && s2[i] != '\0')
+	index1 = 0;
+	while (s1[index1] != '\0' && s2[index1] != '\0')
 	{
-		diff = s1[i] - s2[i];
+		diff = s1[index1] - s2[index1];
 
 		if (diff == 0)
-			i++;
+			index1++;
 		else
 			break;
 	}
