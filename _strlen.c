@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * _strlen - a function that swaps the values of two integers
- * @s: string pointer
+ * _strlen - a function that calculates the length of a string.
+ * @s: pointer to the string.
  *
  * Return: void
  */
