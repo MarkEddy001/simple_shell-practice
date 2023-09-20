@@ -86,6 +86,10 @@ Your shell supports the following features:
 - Exiting the shell using the `exit` built-in.
 - Displaying the current environment variables using the `env` built-in.
 
+## Author
+- Wanyoike Mark Edwards
+- Jillo Jillo
+  
 ### Example Usage
 ```bash
 $ ./hsh
