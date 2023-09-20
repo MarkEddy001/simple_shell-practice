@@ -89,3 +89,17 @@ $ ./hsh
 file1.txt  file2.txt  folder1  folder2
 ($) exit
 $
+
+##Built-in Commands
+- exit: Exits the shell.
+- env: Prints the current environment variables.
+
+##File Input Mode
+Your shell can also read commands from a file as input. To use this mode, pass the filename as a command line argument.
+
+Example File Input
+$ ./hsh filename
+
+##AUTHORS
+- Wanyoike Mark Edwards
+- Jillo Jillo
