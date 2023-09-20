@@ -84,6 +84,12 @@ Your shell supports the following features:
 - Exiting the shell using the `exit` built-in.
 - Displaying the current environment variables using the `env` built-in.
 
+## File Input Mode
+Your shell can also read commands from a file as input. To use this mode, pass the filename as a command line argument.
+
+# Example File Input
+$ ./hsh filename
+
 ## Author
 - Wanyoike Mark Edwards
 - Jillo Jillo
