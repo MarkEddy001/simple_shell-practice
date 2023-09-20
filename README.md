@@ -11,9 +11,7 @@
 - [Usage](#usage)
 - [Built-in Commands](#built-in-commands)
 - [File Input Mode](#file-input-mode)
-- [Author](#author)
-- [Contributors](#contributors)
-- [License](#license)
+- [Authors](#authors)
 
 ## Description
 This project is a simple UNIX command-line interpreter, also known as a shell. The goal is to create a functional shell that can execute basic commands and handle various features of a typical shell environment.
