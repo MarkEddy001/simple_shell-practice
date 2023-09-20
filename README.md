@@ -90,7 +90,9 @@ file1.txt  file2.txt  folder1  folder2
 ($) exit
 $
 
-##Built-in Commands
+---
+
+### Built-in Commands
 - exit: Exits the shell.
 - env: Prints the current environment variables.
 
