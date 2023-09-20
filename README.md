@@ -1,4 +1,4 @@
-# Simple Shell Project
+# simple_shell Project
 
 ## Table of Contents
 - [Description](#description)
