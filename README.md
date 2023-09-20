@@ -88,7 +88,6 @@ Your shell supports the following features:
 Your shell can also read commands from a file as input. To use this mode, pass the filename as a command line argument.
 
 # Example File Input
-```bash
 $ ./hsh filename
 
 ## Author
@@ -101,4 +100,4 @@ $ ./hsh
 ($) /bin/ls
 file1.txt  file2.txt  folder1  folder2
 ($) exit
-$ 
+$
