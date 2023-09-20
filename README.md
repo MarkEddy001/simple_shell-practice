@@ -69,6 +69,10 @@ Upon completing this project, you should be able to explain the following concep
 - Use system calls only when necessary.
 - Write a README with the project description.
 
+## Built-in Commands
+- exit: Exits the shell.
+- env: Prints the current environment variables.
+
 ## Getting Started
 1. Clone this repository to your local machine.
 2. Compile the shell using the provided compilation command.
