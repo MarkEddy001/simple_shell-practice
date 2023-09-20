@@ -1,6 +1,6 @@
 # 0x16. C- simple_shell Project
 
-🚀 Welcome to our Simple Shell GitHub repository, where innovation meets simplicity! In the world of computing, the command-line interface is the bedrock of efficiency, and our team has embarked on an exciting journey to redefine how you interact with your computer.
+🚀 Welcome to our simple_shell GitHub repository, where innovation meets simplicity! In the world of computing, the command-line interface is the bedrock of efficiency, and our team has embarked on an exciting journey to redefine how you interact with your computer.
 
 ## Table of Contents
 - [Description](#description)
